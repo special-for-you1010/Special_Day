@@ -147,10 +147,10 @@ function typeLetter() {
     const typingElement = document.getElementById("typingLetter");
 
     const message =
-        "Dear bestie,\n\n" +
+        "For You,\n\n" +
         "Selamat ulang tahun! Semoga di umur yang baru ini kamu selalu diberikan kebahagiaan, kesehatan, dan banyak hal baik dalam hidupmu.\n\n" +
         "Terima kasih sudah menjadi teman yang selalu memberikan cerita, tawa, dan kenangan yang tidak terlupakan.\n\n" +
-        "I hope this little website can make your day a little more special. 💗\n\n" +
+        "Oh iya kira kira tambah umur tambah juga ga yah tinggi badan nya? 💗\n\n" +
         "From,\n" +
         "Your Best Friend ♡";
 
@@ -275,16 +275,17 @@ function typeFinalMessage() {
 
     const message =
         "Happy Birthday! 🎂\n\n" +
-        "Hari ini adalah hari spesial untuk kamu.\n\n" +
+        "Aku ga pandai ngomong, jadi tamplate aja lah yah kata katanya,\n\n" +
+        "Cuma serius ini no fake fake.\n\n" +
         "Semoga di umur yang baru ini, kamu selalu diberikan kesehatan, kebahagiaan, dan banyak hal baik yang datang dalam hidupmu.\n\n" +
         "Semoga setiap langkah yang kamu ambil membawa kamu lebih dekat dengan hal-hal yang kamu impikan.\n\n" +
         "Terima kasih sudah menjadi bagian dari begitu banyak cerita, tawa, dan kenangan yang pernah kita lewati bersama.\n\n" +
-        "Mungkin tidak semua momen bisa kita ingat satu per satu, tapi semoga selalu ada beberapa di antaranya yang membuat kamu tersenyum ketika mengingatnya kembali.\n\n" +
         "Jangan lupa untuk selalu menghargai dirimu sendiri, tetap menjadi dirimu yang sebenarnya, dan jangan takut untuk terus mencoba hal-hal baru.\n\n" +
-        "Kalau suatu hari nanti kita melihat kembali semua foto dan cerita yang pernah kita buat, semoga kita bisa tersenyum dan berkata,\n\n" +
-        "\"Ternyata kita sudah melewati banyak hal bersama.\"\n\n" +
+        "Selesaikan apa yang telah kau mulai, mungkin jalannya ga sesuai sama apa yang di inginkan tapikan udah sejauh ini.\n\n" +
+        "\"OH iya jangan lupa bersyukur untuk setiap hal kecil yang di dapat apapun itu.\"\n\n" +
+        "Kalo butuh pendengar bisa hubungi aku ya! 💌 barang kali ada cerita seru.\n\n" +
         "Sekali lagi, Happy Birthday! 🎂\n\n" +
-        "Semoga tahun ini membawa lebih banyak cerita indah, pengalaman baru, dan alasan untuk tersenyum.\n\n" +
+        "Udah besar ae adek nih, soal tinggi badan setelah aku cari ternyata udh gabisa tumbuh lagi sih semangat yah hehe.\n\n" +
         "Keep smiling, keep being you, and keep making beautiful memories. ♡";
 
     typingElement.innerHTML = "";
@@ -367,8 +368,8 @@ function openGift() {
         /* PESAN */
 
         surpriseText.innerHTML =
-            "You found it! ♡<br><br>" +
-            "This little surprise is just for you.<br>" +
+            "There isn't much I want to say! ♡<br><br>" +
+            "I just want to say...<br>" +
             "Happy Birthday! 🎂";
 
         surpriseText.classList.add("revealed");
