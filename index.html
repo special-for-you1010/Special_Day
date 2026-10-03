@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         HALAMAN 1 - OPENING
+    ================================== -->
+
+    <main class="opening" id="opening">
+
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+
+        <div class="stars">
+            ✦　✧　⋆　✦　⋆　✧
+        </div>
+
+        <section class="opening-card">
+
+            <p class="mini-title">
+                A little something for you
+            </p>
+
+            <h1>
+                Happy<br>
+                Birthday
+            </h1>
+
+            <div class="heart">
+                ♡
+            </div>
+
+            <p class="opening-text">
+                There is something special<br>
+                waiting for you...
+            </p>
+
+            <button onclick="openSurprise()">
+                OPEN HERE
+                <span>♡</span>
+            </button>
+
+        </section>
+
+        <div class="bottom-decoration">
+            ✧　♡　✧　♡　✧
+        </div>
+
+    </main>
+
+
+    <!-- =================================
+         HALAMAN 2 - WELCOME
+    ================================== -->
+
+    <main class="welcome" id="welcome">
+
+        <div class="welcome-glow"></div>
+
+        <div class="welcome-content">
+
+            <p class="welcome-small">
+                WELCOME TO YOUR
+            </p>
+
+            <h2>
+                Special Day
+            </h2>
+
+            <div class="welcome-heart">
+                ♡
+            </div>
+
+            <p class="welcome-text">
+                Today is all about celebrating
+                someone truly special.
+            </p>
+
+            <!-- FOTO KENANGAN -->
+
+            <div class="memory-gallery">
+
+                <div class="memory memory-1">
+                    <img src="images/foto1.jpeg" alt="Memory 1">
+                </div>
+
+                <div class="memory memory-2">
+                    <img src="images/foto2.jpeg" alt="Memory 2">
+                </div>
+
+                <div class="memory memory-3">
+                    <img src="images/foto3.jpeg" alt="Memory 3">
+                </div>
+
+            </div>
+
+
+            <p class="welcome-message">
+                I made this little place
+                especially for you. 💗
+            </p>
+
+
+            <button class="continue-button" onclick="goToSurprises()">
+
+                CHOOSE YOUR SURPRISE
+
+                <span>→</span>
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- =================================
+     HALAMAN 3 - CHOOSE YOUR SURPRISE
+================================== -->
+
+    <main class="surprise-page" id="surprisePage">
+
+        <div class="surprise-glow"></div>
+
+        <div class="surprise-content">
+
+            <p class="surprise-small">
+                SOMETHING SPECIAL FOR YOU
+            </p>
+
+            <h2>
+                Choose Your
+                <span>Surprise</span>
+            </h2>
+
+            <div class="surprise-heart">
+                ♡
+            </div>
+
+            <div class="surprise-menu">
+
+                <!-- LETTER -->
+
+                <button class="surprise-card" onclick="openLetter()">
+
+                    <div class="surprise-icon">
+                        💌
+                    </div>
+
+                    <h3>
+                        A Letter
+                    </h3>
+
+                    <p>
+                        A little message
+                        from my heart
+                    </p>
+
+                    <span class="card-arrow">
+                        →
+                    </span>
+
+                </button>
+
+
+                <!-- A LITTLE SURPRISE -->
+
+                <button class="surprise-card" onclick="openLittleSurprise()">
+
+                    <div class="surprise-icon">
+                        🎁
+                    </div>
+
+                    <h3>
+                        A Little Surprise
+                    </h3>
+
+                    <p>
+                        Something special is waiting for you
+                    </p>
+
+                    <span>→</span>
+
+                </button>
+
+
+                <!-- MEMORIES -->
+
+                <button class="surprise-card" onclick="openMemories()">
+
+                    <div class="surprise-icon">
+                        📸
+                    </div>
+
+                    <h3>
+                        Memories
+                    </h3>
+
+                    <p>
+                        Little moments
+                        worth remembering
+                    </p>
+
+                    <span class="card-arrow">
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <button class="back-button" onclick="backToWelcome()">
+
+                ← BACK
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- =================================
+     HALAMAN 4 - A LITTLE SURPRISE
+================================== -->
+
+    <main class="music-page" id="musicPage">
+
+        <div class="music-glow"></div>
+
+        <div class="music-content">
+
+            <p class="music-small">
+                SOMETHING SPECIAL FOR YOU
+            </p>
+
+            <h2>
+                A Little <span>Surprise</span>
+            </h2>
+
+            <div class="music-heart">
+                🎁
+            </div>
+
+            <p class="surprise-text">
+                There is a little something waiting for you...
+            </p>
+
+            <button class="open-gift-button" onclick="openGift()">
+
+                OPEN ME ♡
+
+            </button>
+
+            <!-- =================================
+             BACKGROUND MUSIC
+        ================================== -->
+
+            <audio id="backgroundMusic" preload="auto" loop>
+
+                <source src="Music/birthday.mp4" type="audio/mp4">
+
+            </audio>
+
+        </div>
+
+    </main>
+
+    <!-- ========================================
+     LETTER PAGE
+======================================== -->
+
+    <main class="letter-page" id="letterPage">
+
+        <div class="letter-container">
+
+            <div class="letter-title">
+                <span>💌</span>
+                <h1>A Little Letter</h1>
+                <p>Something special for you...</p>
+            </div>
+
+            <div class="letter-paper">
+
+                <h2>Happy Birthday! 🎂</h2>
+
+                <p>
+                    Dear bestie,
+                </p>
+
+                <p>
+                    Selamat ulang tahun! Semoga di umur yang baru
+                    ini kamu selalu diberikan kebahagiaan, kesehatan,
+                    dan banyak hal baik dalam hidupmu.
+                </p>
+
+                <p>
+                    Terima kasih sudah menjadi teman yang selalu
+                    memberikan cerita, tawa, dan kenangan yang
+                    tidak terlupakan.
+                </p>
+
+                <p>
+                    I hope this little website can make your day
+                    a little more special. 💗
+                </p>
+
+                <p class="letter-signature">
+                    From,<br>
+                    Your Best Friend ♡
+                </p>
+
+            </div>
+
+            <button class="letter-back-button" onclick="backFromLetter()">
+
+                ← BACK
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- ========================================
+     MEMORIES PAGE
+======================================== -->
+
+    <main class="memories-page" id="memoriesPage">
+
+        <div class="memories-container">
+
+            <div class="memories-title">
+                <span>📸</span>
+                <h1>Our Memories</h1>
+                <p>Little moments, big memories...</p>
+            </div>
+
+            <div class="memory-gallery">
+
+                <div class="memory-card">
+                    <img src="images/foto4.jpeg" alt="Memory 1" onclick="openPhoto(this.src)">
+                    <p>One of our little moments ♡</p>
+                </div>
+
+                <div class="memory-card">
+                    <img src="images/foto5.jpeg" alt="Memory 2" onclick="openPhoto(this.src)">
+                    <p>A moment worth remembering ✦</p>
+                </div>
+
+                <div class="memory-card">
+                    <img src="images/foto6.jpeg" alt="Memory 3" onclick="openPhoto(this.src)">
+                    <p>More memories to come ♡</p>
+                </div>
+
+            </div>
+
+            <button class="memories-back-button" onclick="backFromMemories()">
+
+                ← BACK
+
+            </button>
+
+            <button class="final-surprise-button" onclick="openFinalSurprise()">
+
+                ✨ FINAL SURPRISE ✨
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- PHOTO VIEWER -->
+
+    <div class="photo-viewer" id="photoViewer">
+
+        <span class="photo-close" onclick="closePhoto()">
+            ×
+        </span>
+
+        <img id="largePhoto" src="" alt="Large Memory">
+
+    </div>
+
+    <!-- ========================================
+     FINAL SURPRISE PAGE
+======================================== -->
+
+    <main class="final-page" id="finalPage">
+
+        <div class="final-container">
+
+            <div class="final-icon">
+                🎁
+            </div>
+
+            <h1>
+                One More Thing...
+            </h1>
+
+            <p class="final-subtitle">
+                Before you leave, there's something
+                I want you to know.
+            </p>
+
+            <div class="final-message" id="finalMessage">
+                <p id="typingFinal"></p>
+            </div>
+            <div class="final-heart">
+                ♡
+            </div>
+
+            <button class="final-back-button" onclick="backToSurprisesFromFinal()">
+
+                ← BACK
+
+            </button>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
